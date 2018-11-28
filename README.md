@@ -15,6 +15,7 @@
         - CAD(Computer Aided Design) 
         - BI(Business Intelligence)
         - CAPP(Computer Aided Process Planning)
+        - CAM(Computer Aided Manufacturing)
         - 电子商务(e-Business)
 - 信息系统（开发利用）面临的挑战
     - 第一类：彻底、全方位实施
@@ -148,6 +149,27 @@
                     - 问题：你咋知道要定多少
                 - 经济订货批量 - EOQ
                     - EOQ = (2*D*C_o/C_i)^0.5
+
+
+## 制造业信息化及信息系统
+
+- 概述
+    - CIMS - Computer   Integrated Manufacturing System
+    - CIM 不等于全盘自动化，计算机只是工具、手段， 系统集成包括人的集成
+        - 组成
+            - 管理信息系统
+                - MRPII
+            - 工程设计自动化系统
+                - CAD、CAPP、CAM
+            - 制造自动化系统
+            - 质量保证系统
+            - 计算机通信网络
+            - 数据库系统
+        - MRP / MRP II / ERP / SCM
+        - CAD、CAPP、CAM
+
+- MRP/MRPII/ERP/SCM
+- CAD/CAPP/CAM
 
 
 # 第三部分 第三讲 信息系统开发例说
@@ -682,7 +704,7 @@ DFD 数据流动视角，动态模型；ER 静态模型
                         - 把 2 中的实体模型划分成大组，称为主题数据库
                     - 第二种方法
                         - 考察业务过程一览表，写下每个过程用到的输入输出数据类
-                        - UC 矩阵
+                            - 进而利用这个表得到 UC 矩阵划分子系统
             - 目标：使数据的定义和结构取得一致
             - 4. 5. 使用非过程的应用生成软件工具
                 - 保证信息中心和个人应用项目迅速建立
@@ -1062,7 +1084,14 @@ IRM
 - CAD - Computer Aided Design  计算机辅助设计
 - BI - Business Intelligence 商务智能？
 - CAPP - Computer Aided Process Planning
+- CAM - Computer Aided Manufacturing
+- CIMS - Computer Integrated Manufacturing
 - 电子商务(e-Business)
+- MRP( Material Requirement Planning) 
+-  MRPII - Manufacturing Resource Planning 
+- ERP (Enterprise Resources Planning)
+-  SCM (Supply Chain Management) 
+- 物料清单(BOM)
 
 - 第一部分引言
     - 大智移云联万物
@@ -1082,11 +1111,8 @@ IRM
     - 会算
 - 论述题
     - 信息系统基本方法
-    - 第二章：
     - James Martin  002 看书
-        - 实体关系图 - 蚯蚓图
-            - 结构化实体图
-                - 分类，分成几大类实体图
+        - 
         
     - CU 矩阵
         - 分解若干子系统
