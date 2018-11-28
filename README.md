@@ -1036,7 +1036,7 @@ IRM
     - 数据模型
     - 体系结构模型
 
-    ![infoplan](./image/infoplan)
+    ![infoplan](./image/infoplan.png)
 
 - 任务与技术成果
     - 定义职能域、外单位
